@@ -51,6 +51,11 @@ const About = () => {
                   location: "Rio de Janeiro, Brazil",
                 },
                 {
+                  role: "Staff Engineer",
+                  company: "Ambipar",
+                  location: "São Paulo, Brazil (Remote)",
+                },
+                {
                   role: "DevOps Engineer",
                   company: "Locke Bio",
                   location: "Toronto, Canada (Remote)",

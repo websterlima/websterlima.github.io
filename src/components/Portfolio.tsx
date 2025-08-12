@@ -1,11 +1,16 @@
 const Portfolio = () => {
   const projects = [
     {
-      title: "Priceless Booking Platform",
-      description:
-        "A streamlined reservation system for Mastercard's benefits program, enhancing user experience and engagement.",
-      link: "https://booking-priceless.com.br/",
-      tech: ["Angular", "Node.js", "Google Cloud", "Stripe"],
+      title: "Biofílica Carbon Calculator",
+      description: "A carbon emissions calculator for Biofílica, a Brazilian company operating in the carbon market.",
+      link: "https://biofilica.com.br/carbon-calculator/",
+      tech: ["Vue.js", "Node.js", "Wordpress", "AWS", "Paypal"],
+    },
+    {
+      title: "FormView",
+      description: "An web app for viewing and managing forms.",
+      link: "https://formview.com.br/",
+      tech: ["React", "Node.js", "PocketBase", "AWS"],
     },
     {
       title: "Which Social Network",
@@ -27,6 +32,13 @@ const Portfolio = () => {
         "A mobile app that helps users with their workout and strength training.",
       link: "https://apps.apple.com/us/app/motion-lab/id6450864490",
       tech: ["React Native", "Firebase", "Firestore", "Cloud Functions"],
+    },
+    {
+      title: "Afinador.app",
+      description:
+        "A PWA that helps users with their guitar tuning.",
+      link: "https://afinador.app/",
+      tech: ["React", "Web Audio API", "PWA", "Google Cloud"],
     },
   ];
 
